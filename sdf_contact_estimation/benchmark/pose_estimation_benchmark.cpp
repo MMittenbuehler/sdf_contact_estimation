@@ -100,5 +100,4 @@ int main(int argc, char** argv) {
   char* argv2[1]{argv[0]};
   benchmark::Initialize(&argc2, argv2);
   benchmark::RunSpecifiedBenchmarks();
-  benchmark::Shutdown();
 }
